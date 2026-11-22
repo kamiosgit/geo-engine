@@ -1,0 +1,88 @@
+/**
+ * GEO Engine — front-end FAQ styles.
+ *
+ * Deliberately minimal and theme-neutral: no fixed colours on text, one accent
+ * border, native <details> as the disclosure widget (no JavaScript).
+ */
+
+.geo-faq {
+	margin: 2.5em 0 1.5em;
+	padding: 1.25em 0 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.geo-faq-title {
+	margin: 0 0 0.75em;
+	font-size: 1.25em;
+	line-height: 1.35;
+}
+
+.geo-faq-list {
+	display: block;
+}
+
+.geo-faq-item {
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 6px;
+	margin: 0 0 0.6em;
+	padding: 0;
+	background: transparent;
+}
+
+.geo-faq-item + .geo-faq-item {
+	margin-top: 0.6em;
+}
+
+.geo-faq-q {
+	cursor: pointer;
+	padding: 0.85em 1em;
+	font-weight: 600;
+	line-height: 1.5;
+	list-style: none;
+	position: relative;
+	padding-right: 2.5em;
+}
+
+.geo-faq-q::-webkit-details-marker {
+	display: none;
+}
+
+.geo-faq-q::after {
+	content: "+";
+	position: absolute;
+	right: 1em;
+	top: 50%;
+	transform: translateY(-50%);
+	font-weight: 400;
+	font-size: 1.1em;
+	line-height: 1;
+	opacity: 0.6;
+}
+
+.geo-faq-item[open] .geo-faq-q::after {
+	content: "−";
+}
+
+.geo-faq-item[open] .geo-faq-q {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.geo-faq-a {
+	padding: 0.6em 1em 0.9em;
+	line-height: 1.75;
+}
+
+.geo-faq-a p {
+	margin: 0;
+}
+
+.geo-faq-a p + p {
+	margin-top: 0.6em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.geo-faq,
+	.geo-faq-item {
+		border-color: rgba(255, 255, 255, 0.16);
+	}
+}

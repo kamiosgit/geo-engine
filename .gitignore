@@ -1,0 +1,31 @@
+# Dependencies
+/vendor/
+/node_modules/
+
+# Local config & secrets
+.env
+.env.*
+wp-config.php
+*.local.php
+
+# Test artefacts
+phpunit.xml
+.phpunit.result.cache
+coverage/
+*.log
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.sublime-*
+
+# Build output
+*.zip
+build/
+dist/
+
+# Local scratch
+.preview/
+*.genie
+.wbapp_*

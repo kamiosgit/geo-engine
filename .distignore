@@ -1,0 +1,26 @@
+# Files excluded from the distributable plugin zip.
+# Used by .github/workflows/release.yml (rsync --exclude-from).
+
+.git
+.github
+.gitignore
+.distignore
+
+# Developer docs and tooling
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+SECURITY.md
+CODE_OF_CONDUCT.md
+composer.json
+composer.lock
+phpunit.xml.dist
+tests
+vendor
+node_modules
+
+# Build artefacts
+build
+dist
+*.zip
+.DS_Store

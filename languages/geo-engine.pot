@@ -1,0 +1,1008 @@
+# Copyright (C) 2026 GEO Engine
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: GEO Engine 1.0.3\n"
+"Report-Msgid-Bugs-To: https://geo.kamibaby.com\n"
+"POT-Creation-Date: 2026-11-22 12:10+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: geo-engine-1.0.3\n"
+"X-Domain: geo-engine\n"
+
+#: includes/class-bulk.php:632
+msgid "%1$d / %2$d 篇"
+msgstr ""
+
+#: includes/class-settings.php:329
+msgid "%s / %s 篇"
+msgstr ""
+
+#: includes/class-llm-client.php:154
+msgid "%s 不在预设白名单内。请勾选「允许预设白名单之外的域名」，或改用内置预设服务商。"
+msgstr ""
+
+#: includes/class-llm-client.php:134
+msgid "%s 是本地或内网地址，默认被拦截。若确为自建服务（如 Ollama），请勾选「允许本地 / 内网端点」。"
+msgstr ""
+
+#: includes/class-settings-llm.php:733
+msgid "429 / 5xx / 超时会按 2s → 4s → 8s 指数退避。"
+msgstr ""
+
+#: includes/class-settings.php:811
+msgid "AI 爬虫规则"
+msgstr ""
+
+#: includes/class-settings.php:817
+msgid "Allow"
+msgstr ""
+
+#: includes/class-driver-anthropic.php:112
+msgid "Anthropic 返回了空文本。请调高 max_tokens 后重试。"
+msgstr ""
+
+#: includes/class-settings-llm.php:601
+msgid "API Base"
+msgstr ""
+
+#: includes/class-llm-client.php:117
+msgid "API Base 不是合法 URL。"
+msgstr ""
+
+#: includes/class-llm-client.php:111
+#: includes/class-settings-llm.php:245
+msgid "API Base 不能为空。"
+msgstr ""
+
+#: includes/class-llm-client.php:144
+msgid "API Base 仅支持 http(s) 协议。"
+msgstr ""
+
+#: includes/class-llm-client.php:140
+msgid "API Base 必须以 https:// 开头。仅本地端点可在开启开关后使用 http。"
+msgstr ""
+
+#: includes/class-settings-llm.php:620
+msgid "API Key"
+msgstr ""
+
+#: includes/class-settings-llm.php:574
+msgid "API Key 将以可逆编码（base64）存储，任何能读取数据库的人都能还原明文。请让主机启用 openssl，或改用环境变量注入。"
+msgstr ""
+
+#: includes/class-settings-llm.php:310
+msgid "API Key 无法加密存储，请检查服务器 openssl 扩展。"
+msgstr ""
+
+#: includes/class-settings.php:754
+msgid "Article / BlogPosting"
+msgstr ""
+
+#: includes/class-settings-llm.php:704
+msgid "auto — 服务商支持则发送 json_object"
+msgstr ""
+
+#: includes/class-settings.php:756
+msgid "BreadcrumbList"
+msgstr ""
+
+#: includes/class-settings.php:818
+msgid "Disallow"
+msgstr ""
+
+#: includes/class-settings.php:706
+msgid "FAQ 区块标题"
+msgstr ""
+
+#: includes/class-settings.php:757
+msgid "FAQPage"
+msgstr ""
+
+#: includes/class-settings-llm.php:705
+msgid "force — 总是发送 json_object"
+msgstr ""
+
+#: includes/class-settings.php:281
+#: includes/class-settings.php:282
+#: includes/class-settings.php:597
+msgid "GEO Engine"
+msgstr ""
+
+#: includes/class-automation.php:391
+msgid "GEO FAQ"
+msgstr ""
+
+#: includes/class-settings.php:587
+msgid "LLM 配置"
+msgstr ""
+
+#: includes/class-settings.php:804
+msgid "llms-full.txt 条数上限"
+msgstr ""
+
+#: includes/class-settings.php:797
+msgid "llms-full.txt 每篇正文长度"
+msgstr ""
+
+#: includes/class-settings.php:794
+msgid "llms.txt 与 Markdown 端点"
+msgstr ""
+
+#: includes/class-settings.php:702
+msgid "llms.txt、schema 与批量生成均以此为准。"
+msgstr ""
+
+#: includes/class-settings-llm.php:695
+msgid "max_tokens"
+msgstr ""
+
+#: includes/class-settings-llm.php:706
+msgid "off — 不发送，靠提示词与解析器"
+msgstr ""
+
+#: includes/class-settings.php:753
+msgid "Organization"
+msgstr ""
+
+#: includes/class-settings-llm.php:688
+msgid "temperature"
+msgstr ""
+
+#: includes/class-settings.php:911
+msgid "tokens"
+msgstr ""
+
+#: includes/class-settings.php:755
+msgid "WebPage"
+msgstr ""
+
+#: includes/class-settings.php:752
+msgid "WebSite"
+msgstr ""
+
+#: includes/class-settings-llm.php:672
+msgid "{key} 会被替换为实际密钥，例如 Token {key}。"
+msgstr ""
+
+#: includes/class-settings.php:744
+msgid "「自动」= 检测到同名 schema 由 SEO 插件输出时跳过；「强制」= 始终输出；「关闭」= 不输出。"
+msgstr ""
+
+#: includes/class-settings.php:338
+msgid "上一批仍在处理中，稍后自动重试…"
+msgstr ""
+
+#: includes/class-bulk.php:264
+msgid "上一批仍在处理中，请稍候。"
+msgstr ""
+
+#: includes/class-settings.php:337
+msgid "上次任务已中断，点「继续」从断点接着跑。"
+msgstr ""
+
+#: includes/class-automation.php:434
+msgid "上次跳过原因：%s"
+msgstr ""
+
+#: includes/class-settings.php:333
+msgid "下一批将在 %s 秒后开始"
+msgstr ""
+
+#: includes/class-settings.php:716
+msgid "下限为 2 条：少于 2 条不会写回正文（FAQPage 需要多条目才完整）。"
+msgstr ""
+
+#: includes/class-llm-client.php:121
+msgid "不允许在 API Base 中携带账号密码。"
+msgstr ""
+
+#: includes/class-settings-llm.php:604
+msgid "不含 /chat/completions，插件会自动拼接；填写完整路径也会被自动纠正。"
+msgstr ""
+
+#: includes/class-settings-llm.php:718
+msgid "仅对支持该参数的服务商生效。FAQ 生成属结构化任务，一般建议关闭以节省 token。"
+msgstr ""
+
+#: includes/class-settings.php:807
+msgid "仅限制 llms-full.txt，llms.txt 不设条数上限。"
+msgstr ""
+
+#: includes/class-settings-llm.php:138
+msgid "任何 OpenAI 兼容网关。需勾选「允许自定义端点」。"
+msgstr ""
+
+#: includes/class-settings-llm.php:118
+msgid "使用 Messages 协议，不支持 response_format，靠提示词与解析器保证 JSON。"
+msgstr ""
+
+#: includes/class-bulk.php:675
+msgid "保存参数"
+msgstr ""
+
+#: includes/class-settings.php:842
+msgid "保存设置"
+msgstr ""
+
+#: includes/class-settings-llm.php:764
+msgid "保存配置"
+msgstr ""
+
+#: includes/class-settings.php:910
+msgid "信息"
+msgstr ""
+
+#: includes/class-bulk.php:600
+msgid "停止"
+msgstr ""
+
+#: includes/class-settings-llm.php:741
+msgid "允许本地 / 内网端点（localhost、127.0.0.1、私有网段）"
+msgstr ""
+
+#: includes/class-settings-llm.php:746
+msgid "允许预设白名单之外的域名"
+msgstr ""
+
+#: includes/class-settings.php:881
+msgid "全部"
+msgstr ""
+
+#: includes/class-bulk.php:280
+#: includes/class-bulk.php:374
+#: includes/class-settings.php:327
+msgid "全部处理完成。"
+msgstr ""
+
+#: includes/class-settings.php:767
+msgid "关闭"
+msgstr ""
+
+#: includes/class-settings.php:685
+msgid "内容范围"
+msgstr ""
+
+#: includes/class-settings-llm.php:652
+msgid "决定请求体格式与解析方式。OpenAI 兼容服务一律用第一项。"
+msgstr ""
+
+#: includes/class-settings.php:830
+msgid "删除插件时"
+msgstr ""
+
+#: includes/class-settings.php:709
+msgid "前台渲染 FAQ 手风琴时使用的标题，不影响 JSON-LD。"
+msgstr ""
+
+#: includes/class-bulk.php:642
+msgid "剩余 %d 篇"
+msgstr ""
+
+#: includes/class-settings.php:330
+msgid "剩余 %s 篇"
+msgstr ""
+
+#: includes/class-settings.php:736
+msgid "加载插件自带的 FAQ 轻量样式"
+msgstr ""
+
+#: includes/class-settings.php:908
+msgid "动作"
+msgstr ""
+
+#: includes/class-settings-llm.php:645
+msgid "协议驱动"
+msgstr ""
+
+#: includes/class-bulk.php:663
+msgid "单个请求最多处理几篇。请求还会在 20 秒时自动收尾，把剩下的交给下一批，所以设大也不会超时；但设小一点，进度条动得更勤。建议 1–5 篇。"
+msgstr ""
+
+#: includes/class-settings.php:827
+msgid "卸载行为"
+msgstr ""
+
+#: includes/class-settings-llm.php:754
+msgid "可用占位符：{{title}} {{content}} {{headings}} {{existing}} {{count}} {{site}}。留空则使用内置模板。"
+msgstr ""
+
+#: includes/class-faq-generator.php:403
+msgid "可用问答不足 %d 条，已放弃写回（原文未改动）。"
+msgstr ""
+
+#: includes/class-settings-llm.php:616
+msgid "可直接输入任意模型名，不受预设限制。"
+msgstr ""
+
+#: includes/class-settings.php:834
+msgid "同时从所有文章正文中移除已生成的 FAQ 区块"
+msgstr ""
+
+#: includes/class-settings-llm.php:716
+msgid "向服务商发送 enable_thinking: true"
+msgstr ""
+
+#: includes/class-settings.php:688
+msgid "启用的内容类型"
+msgstr ""
+
+#: includes/class-settings-llm.php:701
+msgid "响应格式策略"
+msgstr ""
+
+#: includes/class-driver-openai-chat.php:78
+msgid "响应结构异常：缺少 choices[0].message。该端点可能不是 OpenAI 兼容接口。"
+msgstr ""
+
+#: includes/class-driver-anthropic.php:98
+msgid "响应结构异常：缺少 content 数组。请确认协议驱动选择了 Anthropic Messages。"
+msgstr ""
+
+#: includes/class-settings-llm.php:563
+msgid "填写服务商与 API Key 后才能生成 FAQ。A 层与 C 层功能不受影响。"
+msgstr ""
+
+#: includes/class-bulk.php:618
+#: includes/class-settings.php:873
+#: includes/class-settings.php:883
+msgid "失败"
+msgstr ""
+
+#: includes/class-settings-llm.php:78
+msgid "如所在网络无法直连，请改用自建代理并开启「允许自定义端点」。"
+msgstr ""
+
+#: includes/class-settings.php:723
+msgid "字符。正文短于此值的内容会被跳过，避免为无信息量的页面生成 FAQ。"
+msgstr ""
+
+#: includes/class-settings.php:800
+msgid "字符，超出部分截断。"
+msgstr ""
+
+#: includes/class-bulk.php:586
+msgid "存量批量生成"
+msgstr ""
+
+#: includes/class-settings.php:786
+msgid "官方主页 / 社交账号"
+msgstr ""
+
+#: includes/class-driver-base.php:121
+msgid "密钥无效（401）。请在设置页重新填写 API Key。"
+msgstr ""
+
+#: includes/class-settings-llm.php:775
+msgid "导入"
+msgstr ""
+
+#: includes/class-settings-llm.php:769
+msgid "导入配置"
+msgstr ""
+
+#: includes/class-settings-llm.php:765
+msgid "导出配置"
+msgstr ""
+
+#: includes/class-settings.php:339
+msgid "将处理全部可处理内容，确定开始吗？"
+msgstr ""
+
+#: includes/class-llm-client.php:190
+msgid "尚未填写 API Key。请在「LLM 配置」页填写后保存。"
+msgstr ""
+
+#: includes/class-settings-llm.php:560
+msgid "尚未测试连接。建议先点右侧按钮验证一次。"
+msgstr ""
+
+#: includes/class-bulk.php:433
+#: includes/class-bulk.php:478
+msgid "尚未配置 LLM。"
+msgstr ""
+
+#: includes/class-automation.php:273
+msgid "尚未配置 LLM（API Base / 模型 / 密钥）。请先在「LLM 配置」页完成设置。"
+msgstr ""
+
+#: includes/class-bulk.php:607
+msgid "尚未配置 LLM，批量生成不可用。"
+msgstr ""
+
+#: includes/class-bulk.php:219
+msgid "尚未配置 LLM，无法开始批量生成。"
+msgstr ""
+
+#: includes/class-automation.php:438
+msgid "尚未配置 LLM，请先到设置页填写。"
+msgstr ""
+
+#: includes/class-bulk.php:441
+msgid "已从断点继续。"
+msgstr ""
+
+#: includes/class-settings.php:328
+msgid "已停止，进度已保留。"
+msgstr ""
+
+#: includes/class-bulk.php:461
+msgid "已停止，进度已保留。当前正在处理的那一篇会先完成。"
+msgstr ""
+
+#: includes/class-bulk.php:616
+msgid "已处理"
+msgstr ""
+
+#: includes/class-bulk.php:379
+msgid "已处理 %1$d / %2$d 篇，剩余 %3$d 篇。"
+msgstr ""
+
+#: includes/class-settings.php:326
+msgid "已套用预设，请确认后保存。"
+msgstr ""
+
+#: includes/class-settings.php:661
+msgid "已恢复默认配置，API Key 已清除。"
+msgstr ""
+
+#: includes/class-automation.php:248
+msgid "已有 FAQ，已跳过（可勾选强制重新生成）。"
+msgstr ""
+
+#: includes/class-automation.php:316
+msgid "已生成 %d 条 FAQ 并写回正文。"
+msgstr ""
+
+#: includes/class-automation.php:325
+msgid "已生成 %d 条 FAQ。"
+msgstr ""
+
+#: includes/class-settings-llm.php:559
+msgid "已配置"
+msgstr ""
+
+#: includes/class-llms-feed.php:344
+#: includes/class-settings.php:481
+#: includes/class-settings.php:53
+#: includes/class-shortcode.php:170
+#: includes/class-shortcode.php:226
+msgid "常见问题"
+msgstr ""
+
+#: includes/class-settings.php:586
+msgid "常规设置"
+msgstr ""
+
+#: includes/class-settings.php:733
+msgid "延迟 10 秒后台执行，不阻塞发布；生成失败不影响文章状态。"
+msgstr ""
+
+#: includes/class-bulk.php:598
+msgid "开始 / 重新开始"
+msgstr ""
+
+#: includes/class-settings.php:766
+msgid "强制输出"
+msgstr ""
+
+#: includes/class-bulk.php:591
+msgid "当前可处理内容：%d 篇（已发布、未加密、属于启用的内容类型）。"
+msgstr ""
+
+#: includes/class-bulk.php:256
+msgid "当前没有进行中的任务。"
+msgstr ""
+
+#: includes/class-settings-llm.php:573
+msgid "当前环境缺少 openssl 扩展。"
+msgstr ""
+
+#: includes/class-settings-llm.php:627
+msgid "当前：%s。留空表示保持现有密钥不变。"
+msgstr ""
+
+#: includes/class-settings-llm.php:712
+msgid "思考模式"
+msgstr ""
+
+#: includes/class-bulk.php:620
+msgid "总数"
+msgstr ""
+
+#: includes/class-settings-llm.php:759
+msgid "恢复默认提示词"
+msgstr ""
+
+#: includes/class-settings.php:849
+msgid "恢复默认配置"
+msgstr ""
+
+#: includes/class-bulk.php:617
+#: includes/class-settings.php:872
+#: includes/class-settings.php:882
+msgid "成功"
+msgstr ""
+
+#: includes/class-bulk.php:654
+msgid "批处理参数"
+msgstr ""
+
+#: includes/class-bulk.php:667
+msgid "批次间隔"
+msgstr ""
+
+#: includes/class-settings.php:588
+msgid "批量生成"
+msgstr ""
+
+#: includes/class-driver-base.php:131
+msgid "接口不存在（404）。请检查 API Base 是否多写了路径，以及协议驱动是否与服务商匹配。"
+msgstr ""
+
+#: includes/class-settings-llm.php:68
+msgid "推理模型（deepseek-reasoner）会返回 reasoning_content，本插件只取最终回答。"
+msgstr ""
+
+#: includes/class-settings-llm.php:58
+msgid "支持 response_format 与 enable_thinking。模型名可自由改为控制台中的任意模型。"
+msgstr ""
+
+#: includes/class-settings.php:538
+msgid "文件不是合法的 JSON。"
+msgstr ""
+
+#: includes/class-settings-llm.php:423
+msgid "文件格式不符：缺少 config.api_base / config.model。"
+msgstr ""
+
+#: includes/class-settings.php:907
+msgid "文章"
+msgstr ""
+
+#: includes/class-automation.php:204
+#: includes/class-faq-generator.php:463
+#: includes/class-writeback.php:178
+msgid "文章不存在。"
+msgstr ""
+
+#: includes/class-automation.php:208
+msgid "文章状态不允许生成。"
+msgstr ""
+
+#: includes/class-settings.php:731
+msgid "新内容首次发布时自动生成 FAQ"
+msgstr ""
+
+#: includes/class-llm-client.php:242
+msgid "无法连接端点：%s"
+msgstr ""
+
+#: includes/class-settings.php:589
+msgid "日志"
+msgstr ""
+
+#: includes/class-settings.php:660
+msgid "日志已清空。"
+msgstr ""
+
+#: includes/class-settings.php:906
+msgid "时间"
+msgstr ""
+
+#: includes/class-settings.php:916
+msgid "暂无日志。"
+msgstr ""
+
+#: includes/class-settings.php:720
+msgid "最短正文长度"
+msgstr ""
+
+#: includes/class-settings-llm.php:582
+msgid "服务商"
+msgstr ""
+
+#: includes/class-settings-llm.php:547
+msgid "服务商 %1$s · 模型 %2$s · 延迟 %3$d ms"
+msgstr ""
+
+#: includes/class-driver-base.php:146
+msgid "服务商端错误（5xx）。稍后重试即可，本文不会写入任何内容。"
+msgstr ""
+
+#: includes/class-driver-openai-chat.php:90
+msgid "服务商返回了空内容。推理类模型请关闭「思考模式」，或改用非推理模型。"
+msgstr ""
+
+#: includes/class-driver-openai-chat.php:74
+msgid "服务商返回的内容不是合法 JSON，请检查 API Base 是否指向了正确接口。"
+msgstr ""
+
+#: includes/class-settings.php:530
+msgid "未收到上传文件。"
+msgstr ""
+
+#: includes/class-settings.php:700
+msgid "未检测到公开的内容类型。"
+msgstr ""
+
+#: includes/class-llm-client.php:196
+msgid "未知的协议驱动。"
+msgstr ""
+
+#: includes/class-settings-llm.php:622
+#: includes/class-settings-llm.php:628
+msgid "未设置"
+msgstr ""
+
+#: includes/class-settings-llm.php:562
+msgid "未配置"
+msgstr ""
+
+#: includes/class-settings-llm.php:128
+msgid "本地地址默认被拦截，需勾选下方「允许本地/内网端点」。密钥可留空。"
+msgstr ""
+
+#: includes/class-automation.php:79
+#: includes/class-bulk.php:563
+#: includes/class-settings.php:361
+#: includes/class-settings.php:559
+msgid "权限不足。"
+msgstr ""
+
+#: includes/class-automation.php:117
+msgid "权限不足或文章不存在。"
+msgstr ""
+
+#: includes/class-driver-base.php:126
+msgid "权限不足（403）。该密钥可能没有此模型的访问权限，或账户余额不足。"
+msgstr ""
+
+#: includes/class-automation.php:254
+msgid "检测到 SEO 插件的 FAQ 区块，为避免重复已跳过。"
+msgstr ""
+
+#: includes/class-settings.php:336
+msgid "检测到进行中的任务，正在接续…"
+msgstr ""
+
+#: includes/class-settings-llm.php:608
+msgid "模型"
+msgstr ""
+
+#: includes/class-settings-llm.php:249
+msgid "模型名不能为空。"
+msgstr ""
+
+#: includes/class-driver-openai-chat.php:87
+msgid "模型在输出正文前已用尽 max_tokens。请调高 max_tokens，或关闭思考模式。"
+msgstr ""
+
+#: includes/class-faq-generator.php:234
+msgid "模型返回了空内容。"
+msgstr ""
+
+#: includes/class-faq-generator.php:271
+msgid "模型返回的内容不是合法 JSON 结构。"
+msgstr ""
+
+#: includes/class-settings.php:331
+msgid "正在处理…已用时 %s 秒"
+msgstr ""
+
+#: includes/class-settings.php:332
+msgid "正在处理《%s》…已用时 %s 秒"
+msgstr ""
+
+#: includes/class-settings.php:320
+msgid "正在测试…"
+msgstr ""
+
+#: includes/class-settings.php:321
+msgid "正在生成…"
+msgstr ""
+
+#: includes/class-automation.php:420
+msgid "正文中已有 %d 条 FAQ。"
+msgstr ""
+
+#: includes/class-automation.php:426
+msgid "正文中暂无 FAQ。"
+msgstr ""
+
+#: includes/class-automation.php:265
+msgid "正文短于 %d 字，已跳过。"
+msgstr ""
+
+#: includes/class-bulk.php:660
+msgid "每批篇数"
+msgstr ""
+
+#: includes/class-settings.php:713
+msgid "每篇 FAQ 条数"
+msgstr ""
+
+#: includes/class-settings.php:789
+msgid "每行一个 URL，用于 Organization.sameAs。"
+msgstr ""
+
+#: includes/class-settings-llm.php:680
+msgid "每行一条 Name: Value。Host / Content-Length 等危险头会被自动丢弃。"
+msgstr ""
+
+#: includes/class-bulk.php:484
+msgid "没有需要重试的文章。"
+msgstr ""
+
+#: includes/class-settings-llm.php:566
+msgid "测试连接"
+msgstr ""
+
+#: includes/class-settings.php:949
+msgid "清空日志"
+msgstr ""
+
+#: includes/class-settings-llm.php:635
+msgid "清除已保存的密钥"
+msgstr ""
+
+#: includes/class-automation.php:447
+msgid "生成 FAQ"
+msgstr ""
+
+#: includes/class-automation.php:64
+msgid "生成 GEO FAQ"
+msgstr ""
+
+#: includes/class-settings-llm.php:685
+msgid "生成参数"
+msgstr ""
+
+#: includes/class-settings-llm.php:753
+msgid "生成提示词"
+msgstr ""
+
+#: includes/class-settings-llm.php:770
+msgid "用于多站点部署：导入服务商与参数，密钥需在目标站重新填写。"
+msgstr ""
+
+#: includes/class-writeback.php:182
+msgid "目标是一篇修订版本或自动草稿，已跳过。"
+msgstr ""
+
+#: includes/class-settings.php:323
+#: includes/class-settings.php:846
+msgid "确定要恢复默认配置吗？API Key 会被清除。"
+msgstr ""
+
+#: includes/class-settings.php:324
+#: includes/class-settings.php:946
+msgid "确定要清空全部日志吗？"
+msgstr ""
+
+#: includes/class-settings-llm.php:727
+msgid "秒"
+msgstr ""
+
+#: includes/class-bulk.php:670
+msgid "秒。每批结束后等待多久再请求下一批，用于降低触发服务商限流的概率。等待发生在浏览器端，不占用服务器。"
+msgstr ""
+
+#: includes/class-settings-llm.php:737
+msgid "端点安全"
+msgstr ""
+
+#: includes/class-settings.php:875
+msgid "累计 tokens"
+msgstr ""
+
+#: includes/class-settings.php:334
+msgid "约 %s 秒/篇"
+msgstr ""
+
+#: includes/class-settings.php:780
+msgid "组织 Logo URL"
+msgstr ""
+
+#: includes/class-settings.php:774
+msgid "组织名称"
+msgstr ""
+
+#: includes/class-settings.php:742
+msgid "结构化数据（JSON-LD）"
+msgstr ""
+
+#: includes/class-settings-llm.php:691
+msgid "结构化输出建议 0.1–0.3，过高会让问答跑题。"
+msgstr ""
+
+#: includes/class-settings.php:909
+msgid "结果"
+msgstr ""
+
+#: includes/class-bulk.php:599
+msgid "继续"
+msgstr ""
+
+#: includes/class-settings.php:325
+msgid "网络错误，请重试。"
+msgstr ""
+
+#: includes/class-settings.php:765
+msgid "自动"
+msgstr ""
+
+#: includes/class-settings.php:727
+msgid "自动化"
+msgstr ""
+
+#: includes/class-settings-llm.php:36
+msgid "自定义请求头"
+msgstr ""
+
+#: includes/class-settings-llm.php:708
+msgid "若服务商报 400 且提示 response_format 不支持，请改为 off。"
+msgstr ""
+
+#: includes/class-settings.php:822
+msgid "规则会追加到 WordPress 生成的 robots.txt。默认全部 Allow，以利于被 AI 检索引擎抓取。"
+msgstr ""
+
+#: includes/class-driver-base.php:136
+msgid "触发限流（429）。已自动退避重试，仍失败请降低批量并发。"
+msgstr ""
+
+#: includes/class-settings.php:269
+msgid "设置"
+msgstr ""
+
+#: includes/class-settings.php:658
+msgid "设置已保存。"
+msgstr ""
+
+#: includes/class-automation.php:212
+msgid "该内容类型未启用。"
+msgstr ""
+
+#: includes/class-llm-client.php:163
+msgid "该域名解析到内网地址，已被安全策略拦截。"
+msgstr ""
+
+#: includes/class-settings.php:322
+msgid "该文章已有 FAQ，确定要强制重新生成吗？"
+msgstr ""
+
+#: includes/class-writeback.php:186
+msgid "该文章正在写入中。"
+msgstr ""
+
+#: includes/class-automation.php:218
+msgid "该文章正在处理中。"
+msgstr ""
+
+#: includes/class-llm-client.php:203
+msgid "请求体无法序列化为 JSON。请检查提示词中是否包含非法字符。"
+msgstr ""
+
+#: includes/class-settings-llm.php:642
+msgid "请求参数"
+msgstr ""
+
+#: includes/class-driver-base.php:152
+msgid "请求失败（HTTP %d）。"
+msgstr ""
+
+#: includes/class-settings-llm.php:669
+msgid "请求头值模板"
+msgstr ""
+
+#: includes/class-settings-llm.php:665
+msgid "请求头名称"
+msgstr ""
+
+#: includes/class-llm-client.php:210
+msgid "请求未能完成。"
+msgstr ""
+
+#: includes/class-driver-base.php:141
+msgid "请求被拒绝。请检查模型名与参数；若提示 response_format 不支持，请把「响应格式策略」改为 off。"
+msgstr ""
+
+#: includes/class-llm-client.php:239
+msgid "请求超时（%d 秒）。可调高超时时间或改用更快的模型。"
+msgstr ""
+
+#: includes/class-settings-llm.php:725
+msgid "超时"
+msgstr ""
+
+#: includes/class-settings-llm.php:722
+msgid "超时与重试"
+msgstr ""
+
+#: includes/class-bulk.php:619
+#: includes/class-settings.php:874
+#: includes/class-settings.php:884
+msgid "跳过"
+msgstr ""
+
+#: includes/class-settings.php:748
+msgid "输出类型"
+msgstr ""
+
+#: includes/class-settings-llm.php:556
+msgid "连接失败"
+msgstr ""
+
+#: includes/class-settings-llm.php:541
+msgid "连接成功"
+msgstr ""
+
+#: includes/class-bulk.php:341
+msgid "连续 3 次鉴权失败，任务已自动中止。请检查 API Key 后重试。"
+msgstr ""
+
+#: includes/class-settings-llm.php:98
+msgid "部分模型默认开启思考过程，若返回内容为空请关闭「思考模式」。"
+msgstr ""
+
+#: includes/class-settings.php:659
+msgid "配置已导入。API Key 不会随文件导入，请在下方重新填写并保存。"
+msgstr ""
+
+#: includes/class-automation.php:447
+msgid "重新生成 FAQ"
+msgstr ""
+
+#: includes/class-automation.php:64
+msgid "重新生成 GEO FAQ"
+msgstr ""
+
+#: includes/class-settings.php:340
+msgid "重置会清空进度统计（不会删除已生成的 FAQ），确定吗？"
+msgstr ""
+
+#: includes/class-bulk.php:602
+msgid "重置统计"
+msgstr ""
+
+#: includes/class-bulk.php:601
+msgid "重试失败项"
+msgstr ""
+
+#: includes/class-bulk.php:491
+#: includes/class-bulk.php:534
+msgid "重试完成。"
+msgstr ""
+
+#: includes/class-settings-llm.php:730
+msgid "重试次数"
+msgstr ""
+
+#: includes/class-settings-llm.php:656
+msgid "鉴权方式"
+msgstr ""
+
+#: includes/class-settings.php:335
+msgid "预计剩余 %s"
+msgstr ""
+
+#: includes/class-settings-llm.php:585
+msgid "预设"
+msgstr ""
+
+#: includes/class-settings-llm.php:677
+msgid "额外请求头"
+msgstr ""
+
+#: includes/class-settings.php:836
+msgid "默认不勾选：FAQ 属于站点内容资产，卸载插件后仍会作为短代码文本保留。设置、日志与统计在卸载时总会删除。"
+msgstr ""
+
+#: includes/class-settings-llm.php:748
+msgid "默认拒绝，用于防止服务端请求伪造（SSRF）。启用前请确认端点由可信方控制。"
+msgstr ""

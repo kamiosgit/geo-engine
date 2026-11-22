@@ -1,0 +1,50 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build and publish
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read version from plugin header
+        id: ver
+        run: |
+          VERSION=$(grep -m1 -i '^ \* Version:' geo-engine.php | sed 's/.*Version:[[:space:]]*//' | tr -d '[:space:]')
+          if [ -z "$VERSION" ]; then
+            echo "Could not read Version from geo-engine.php" >&2
+            exit 1
+          fi
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "Building v$VERSION"
+
+      - name: Verify tag matches plugin version
+        run: |
+          TAG="${GITHUB_REF_NAME#v}"
+          if [ "$TAG" != "${{ steps.ver.outputs.version }}" ]; then
+            echo "Tag $GITHUB_REF_NAME does not match plugin version ${{ steps.ver.outputs.version }}" >&2
+            exit 1
+          fi
+
+      - name: Build installable zip
+        run: |
+          mkdir -p build
+          rsync -rc --exclude-from=.distignore ./ build/geo-engine/
+          cd build
+          zip -rq "../geo-engine-${{ steps.ver.outputs.version }}.zip" geo-engine
+
+      - name: Attach zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: geo-engine-${{ steps.ver.outputs.version }}.zip
+          generate_release_notes: true
+          draft: false
+          prerelease: false
