@@ -26,7 +26,7 @@ class FaqValidationTest extends TestCase {
 				),
 				array(
 					'question' => '问题二？',
-					'answer'   => '答案二。',
+					'answer'   => '答案二，足够完整。',
 				),
 			)
 		);
@@ -95,15 +95,15 @@ class FaqValidationTest extends TestCase {
 			array(
 				array(
 					'question' => '同一个问题？',
-					'answer'   => '答案甲。',
+					'answer'   => '答案甲，先说一遍。',
 				),
 				array(
 					'question' => '同一个问题',
-					'answer'   => '答案乙。',
+					'answer'   => '答案乙，重复一遍。',
 				),
 				array(
 					'question' => '另一个问题？',
-					'answer'   => '答案丙。',
+					'answer'   => '答案丙，另说一遍。',
 				),
 			)
 		);

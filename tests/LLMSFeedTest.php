@@ -27,7 +27,7 @@ class LLMSFeedTest extends TestCase {
 					'post_name'    => 'sample',
 					'post_type'    => 'post',
 					'post_excerpt' => '',
-					'post_content' => '<p>正文内容。</p>',
+					'post_content' => '<p>正文内容足够长，可以被索引收录。</p>',
 				),
 				$props
 			)
@@ -45,7 +45,7 @@ class LLMSFeedTest extends TestCase {
 				array(
 					'post_title'   => '文章一',
 					'post_name'    => 'one',
-					'post_excerpt' => '摘要一',
+					'post_excerpt' => '这是文章一的一句话摘要内容。',
 				)
 			),
 			$this->post(
@@ -54,7 +54,7 @@ class LLMSFeedTest extends TestCase {
 					'post_title'   => '页面一',
 					'post_name'    => 'page-one',
 					'post_type'    => 'page',
-					'post_excerpt' => '摘要二',
+					'post_excerpt' => '这是页面一的一句话摘要内容。',
 				)
 			),
 		);
@@ -65,8 +65,8 @@ class LLMSFeedTest extends TestCase {
 		$this->assertStringContainsString( '> 站点描述', $output );
 		$this->assertStringContainsString( '## 文章', $output );
 		$this->assertStringContainsString( '## 页面', $output );
-		$this->assertStringContainsString( '- [文章一](https://example.test/one): 摘要一', $output );
-		$this->assertStringContainsString( '- [页面一](https://example.test/page-one): 摘要二', $output );
+		$this->assertStringContainsString( '- [文章一](https://example.test/one): 这是文章一的一句话摘要内容。', $output );
+		$this->assertStringContainsString( '- [页面一](https://example.test/page-one): 这是页面一的一句话摘要内容。', $output );
 	}
 
 	/**
@@ -77,7 +77,7 @@ class LLMSFeedTest extends TestCase {
 	public function test_build_llms_falls_back_to_body() {
 		$output = GEO_LLMS_Feed::build_llms( array( $this->post() ), 'S' );
 
-		$this->assertStringContainsString( '正文内容。', $output );
+		$this->assertStringContainsString( '正文内容足够长', $output );
 	}
 
 	/**
