@@ -13,7 +13,7 @@
 
 **请不要通过公开 issue 报告安全漏洞。**
 
-请发送邮件至 **__EMAIL__**，或在 GitHub 上使用 *Security → Report a vulnerability* 提交私人报告。请在报告中包含：
+请发送邮件至 **tech@kamios.cn**，或在 GitHub 上使用 *Security → Report a vulnerability* 提交私人报告。请在报告中包含：
 
 - 受影响的版本与 WordPress / PHP 版本
 - 复现步骤或概念验证
