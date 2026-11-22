@@ -9,7 +9,7 @@
 - Composer（仅用于拉取 PHPUnit）
 
 ```bash
-git clone https://github.com/__GH_USER__/geo-engine.git
+git clone https://github.com/kamiosgit/geo-engine.git
 cd geo-engine
 composer install
 vendor/bin/phpunit

@@ -2,7 +2,7 @@
 
 **让 WordPress 站点对 AI 友好。** 一个插件、零外部依赖，为全站内容提供机器可读索引（`llms.txt`、Markdown 端点）、结构化数据（JSON-LD），并可选地用**你自己配置的 LLM** 为每篇内容生成文末 FAQ。
 
-[![CI](https://github.com/__GH_USER__/geo-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/__GH_USER__/geo-engine/actions/workflows/ci.yml)
+[![CI](https://github.com/kamiosgit/geo-engine/actions/workflows/ci.yml/badge.svg)](https://github.com/kamiosgit/geo-engine/actions/workflows/ci.yml)
 [![License: GPL v2+](https://img.shields.io/badge/license-GPL--2.0--or--later-blue.svg)](LICENSE)
 [![PHP](https://img.shields.io/badge/php-7.4%2B-777bb4.svg)](https://www.php.net/)
 [![WordPress](https://img.shields.io/badge/wordpress-6.2%2B-21759b.svg)](https://wordpress.org/)
@@ -39,7 +39,7 @@
 
 ```bash
 cd wp-content/plugins
-git clone https://github.com/__GH_USER__/geo-engine.git
+git clone https://github.com/kamiosgit/geo-engine.git
 ```
 
 然后在后台启用 **GEO Engine**。源码目录名必须是 `geo-engine`，否则插件内的相对路径会失效。
@@ -196,7 +196,7 @@ git clone https://github.com/__GH_USER__/geo-engine.git
 ## 十、开发
 
 ```bash
-git clone https://github.com/__GH_USER__/geo-engine.git
+git clone https://github.com/kamiosgit/geo-engine.git
 cd geo-engine
 composer install
 vendor/bin/phpunit

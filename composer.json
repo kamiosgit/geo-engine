@@ -3,7 +3,7 @@
 	"description": "WordPress plugin that makes a site readable by AI: llms.txt, Markdown endpoints, JSON-LD and optional LLM-generated FAQ.",
 	"type": "wordpress-plugin",
 	"license": "GPL-2.0-or-later",
-	"homepage": "https://github.com/__GH_USER__/geo-engine",
+	"homepage": "https://github.com/kamiosgit/geo-engine",
 	"authors": [
 		{
 			"name": "GEO Engine",
@@ -11,7 +11,7 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/__GH_USER__/geo-engine/issues",
+		"issues": "https://github.com/kamiosgit/geo-engine/issues",
 		"docs": "https://geo.kamibaby.com/docs.html"
 	},
 	"keywords": [
