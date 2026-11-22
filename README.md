@@ -30,7 +30,7 @@
 
 ### 方式一：上传压缩包（推荐）
 
-1. 后台上传 `geo-engine.zip` → 启用插件。
+1. 在 [Releases](https://github.com/kamiosgit/geo-engine/releases) 下载最新 `geo-engine-x.y.z.zip`，后台上传 → 启用插件。
 2. 打开 **设置 → 固定链接**，点一次「保存更改」（刷新 rewrite 规则；启用插件时已自动执行一次，若 `/llms.txt` 404 请手动再点一次）。
 3. 访问 `https://你的域名/llms.txt`，应看到纯文本索引。
 4. 进入 **设置 → GEO Engine** 开始配置。
